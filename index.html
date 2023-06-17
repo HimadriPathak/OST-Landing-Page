@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OST Blog Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <h1 class="logo" id="header-img">OST Talent</h1>
+        <nav id="nav-bar" class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-cta" href="#subscribe">Subscribe</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="visuallyhidden">Menu</span>
+          <span class="hamburger"></span>
+        </button>
+    </header>
+    <main>
+        <section class="intro">
+          <h1 class="intro__title">
+            Ignite Your Blogging Odyssey!
+          </h1>
+          <p class="intro__subtitle">
+            Embark on an extraordinary blogging odyssey with OST Talent, your gateway to a world of inspiration. Immerse yourself in our curated news feeds, stay connected with upcoming events, and unleash your potential with career-boosting job listings. Embrace the joy of a worry-free, all-in-one blog solution today!
+          </p>
+          <a href="#" class="button">Get Started</a>
+          <img class="intro__illustration" src="./images/headerimg.gif" alt="" />
+          
+        </section>
+        <section id="features" class="features">
+          <h2 class="visuallyhidden">Features</h2>
+          <ul class="features__list">
+            <li>
+              <img width="116" height="116" viewBox="0 0 116 116" fill="none" src="./images/newspaper.png" aria-hidden="true"/>
+              <p><strong>Stay Informed, Stay Ahead</strong>: Your Daily Dose of News and Insights!</p>
+            </li>
+            <li>
+                <img width="116" height="116" viewBox="0 0 116 116" fill="none" src="./images/timetable.png" aria-hidden="true"/>
+              <p><strong>Mark Your Calendar, Fuel Your Passion</strong>: Explore Exciting Events That Leave a Lasting Impact!</p>
+            </li>
+            <li>
+                <img width="116" height="116" viewBox="0 0 116 116" fill="none" src="./images/job.png" aria-hidden="true"/>
+              <p><strong>Empower Your Professional Journey</strong>: Explore Job Posts that Match Your Ambitions!</p>
+            </li>
+          </ul>
+        </section>
+        
+        <section class="get-started">
+          <h2 class="section__title">
+            Ready to Soar? Dare to Dream Big and Defy Limits!
+          </h2>
+          <a href="#" class="button">Get Started</a>
+          <div class="image-get-started">
+            <img class="image" src="./images/getstarted.png" alt="getstarted"/>
+          </div>
+          <svg width="1440" height="892" viewBox="0 0 1440 892" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="blob-get-started" style="overflow: visible;">
+            <use xlink:href="#blob-get-started"></use>
+          </svg>
+        </section>
+      </main>
+      <footer class="footer">
+          <div class="footer-newsletter" id="subscribe">
+            <h2>OST Talent</h2>
+            <p>
+              Stay up to date with all OST news by subscribing to our newsletter.
+            </p>
+            <form action="#" method="GET" id="form" class="footer-form">
+              <label for="email" class="visuallyhidden">Email address</label>
+              <input type="email" name="email" class="footer-email" placeholder="Email Address" id="email" spellcheck="false" aria-required="true" aria-invalid="false" />
+              <input type="submit" id="submit" class="button button-email" value="Subscribe" />
+            </form>
+          <p>&copy; 2023 OST Blog. All rights reserved.</p>
+        </div>
+      </footer>
+
+      <svg aria-hidden="true" focusable="false" style="display: none;">
+        <symbol id="blob-get-started" style="overflow: visible;">
+          <path opacity="0.1" d="M867.338 147.063C770.536 144.103 678.33 116.503 590.295 86.3319C502.259 56.1608 415.038 22.7226 320.561 6.72889C259.786 -3.55616 190.285 -4.98333 141.322 23.7488C94.1908 51.4193 78.9703 99.2354 70.7921 143.525C64.6317 176.88 61.0103 211.935 77.8745 243.203C89.5939 264.87 110.4 283.092 124.792 303.851C174.837 376.106 139.492 465.192 85.2108 535.725C59.821 568.821 30.2485 600.384 10.6182 635.615C-9.01214 670.846 -18.099 711.196 -0.927485 747.123C16.1104 782.743 56.6807 809.494 100.632 828.306C189.91 866.521 295.118 877.467 397.706 883.659C624.811 897.318 853.119 891.42 1080.81 885.523C1165.08 883.317 1249.71 881.088 1332.61 869.588C1378.64 863.207 1426.15 853.075 1459.56 828.601C1501.99 797.534 1512.51 744.929 1484.07 705.935C1436.39 640.604 1304.54 624.375 1271.21 554.255C1252.86 515.662 1271.7 472.67 1298.36 436.873C1355.56 360.077 1451.42 292.717 1456.48 204.94C1459.95 144.657 1413.86 84.2796 1342.61 55.7598C1267.91 25.86 1164.35 29.6226 1109.24 79.1135C1052.52 130.079 952.808 149.682 867.338 147.063Z" fill="#6C63FF" />
+        </symbol>
+      </svg>
+
+        <script src="/index.js"></script>
+    </body>
+  
+
+</html>
